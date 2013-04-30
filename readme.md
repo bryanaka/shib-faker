@@ -12,3 +12,6 @@ requires node and node-http-proxy
 
 ### Comming Soon
 * Environment Variable Support
+* Separate Files
+* Tests
+* And much more options
