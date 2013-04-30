@@ -1,4 +1,4 @@
-var ShibFaker = function(){
+module.exports.ShibFaker = function(){
 	// handle CLI input
 	var pattern = /:/gm,
 		appInfo = process.argv[2].split(pattern),
@@ -18,4 +18,3 @@ var ShibFaker = function(){
 		"MAIL": "bmrobles@lbl.gov"
 	};
 };
-exports.ShibFaker = ShibFaker;

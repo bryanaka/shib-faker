@@ -1,0 +1,14 @@
+{
+    "name": "Shib-Faker",
+    "version": "0.0.1",
+    "description": "Fakes HTTP Headers that Shibboleth usually injects after intercepting requests.",
+    "keywords": ["shibboleth", "sso", "Service Provider", "Single Sign on"],
+    "repository": "https://github.com/bryanaka/shib-faker.git",
+    "author": "bryanaka <cyborboyx@gmail.com>",
+    "dependencies": {
+        "http-proxy": ">=0.10.2"
+    },
+    "engines": {
+        "node": ">=0.10.3"
+    }
+}
